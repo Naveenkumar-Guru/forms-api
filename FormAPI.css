@@ -1,0 +1,67 @@
+.container {
+  width: 320px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-heading {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: roboto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  padding: 20px;
+}
+
+label {
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+  height: 32px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button.submitbutton {
+  height: 40px;
+  font-weight: 600;
+  padding: 10px 20px;
+  background-color: rgb(58, 173, 58);
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+button.submitbutton:hover {
+  background-color: green;
+}
+
+.gender-field-heading {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  font-family: roboto;
+}
+
+.ml-2 {
+  margin-left: 10px;
+}
